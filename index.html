@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="todolist not-done">
+                    <h1>Todos</h1>
+                    <input id="txttodo" type="text" class="form-control add-todo" placeholder="Add todo">
+                    <button id="btnAdd" class="btn btn-success">Add !</button>
+                    <button id="btnCheckAll" class="btn btn-success">Mark all as done</button>
+                    
+                    <hr>
+                    <ul id="sortable" class="list-unstyled"></ul>
+                                <!-- <div class="todo-footer">
+                                    <strong><span class="count-todos"></span></strong> Items Left
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="todolist">
+                                <h1>Already Done</h1>
+                                <ul id="done-items" class="list-unstyled">
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+                <script src="js/main.js"></script>
+    </body>
+</html>
